@@ -1,0 +1,33 @@
+body{
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    /* background-color: blue; */
+    font-family: 'Poppins', sans-serif;
+}
+/* for contact me page */
+input:focus,
+textarea:focus,
+select:focus{
+    outline:none;
+}
+.section-container{
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    padding: 50px 0;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+/* for small width screens */
+@media only screen (max-width:640px) {
+    .section-container{
+        padding: 100px 0;
+    }
+}
